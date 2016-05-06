@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">RoboCare</string>
-    <string name="strEmail">RoboCare</string>
-    <string name="Patientdetails"><u>Patient Details</u></string>
-    <string name="SpeaktoDoctor">Robo is here to listen you</string>
-
-</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#0297d6">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" >
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:id="@+id/imageView7"
+            android:src="@drawable/appicon" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ROBO CARE"
+                android:id="@+id/textView56"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:textStyle="bold"
+                android:textColor="#f3ecf3"
+                android:textSize="28sp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Care for Living"
+                android:id="@+id/textView57"
+                android:layout_weight="1"
+                android:textColor="#d4888888"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSearch"
+                android:text="Enter the Text"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:id="@+id/btnSearch"
+                android:layout_weight="1"
+                 android:onClick="SearchOnclick"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lstResults"
+                android:choiceMode="none" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

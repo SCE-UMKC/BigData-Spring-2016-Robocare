@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#0297d6"
+    android:textAlignment="center">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" >
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/appicon" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ROBO CARE"
+                android:id="@+id/textView41"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:textStyle="bold"
+                android:textColor="#f3ecf3"
+                android:textSize="28sp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Care for Living"
+                android:id="@+id/textView48"
+                android:layout_weight="1"
+                android:textColor="#d4888888"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Disease Name"
+            android:id="@+id/txtDiseaseName"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:textColor="#f3ecf3"
+            android:textSize="24sp"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="fill"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAboutDisease"
+            android:textSize="22dp"
+            android:text="A disease in which abnormal cells divide uncontrollably and destroy body tissue" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Drugs"
+                android:id="@+id/textView51"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:textStyle="bold"
+                android:textColor="#f3ecf3"
+                android:textSize="24sp"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Anastrozole"
+                android:id="@+id/txtDrug1"
+                android:layout_weight="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Belinostat "
+                android:id="@+id/txtDrug2"
+                android:layout_weight="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Belinostat "
+                android:id="@+id/txtDrug3"
+                android:layout_weight="3" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
