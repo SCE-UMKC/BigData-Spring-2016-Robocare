@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RoboCare</string>
+    <string name="strEmail">RoboCare</string>
+    <string name="Patientdetails"><u>Patient Details</u></string>
+    <string name="SpeaktoDoctor">Robo is here to listen you</string>
+    <string name="SelectSymptoms">Select Your Symptom </string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+
+
+</resources>
